@@ -1,0 +1,48 @@
+body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      
+      header, footer {
+          background-color: #333;
+          color: white;
+          padding: 1em;
+          text-align: center;
+      }
+      header a {
+          text-decoration: none;
+          background-color: azure;
+          padding: 5px;
+          border-radius: 1rem;
+      }
+      
+      .product-detail {
+          padding: 20px;
+          text-align: center;
+      }
+      
+      .product-detail img {
+          width: 100%;
+          max-width: 300px; /* Controla el tamaño máximo de la imagen */
+          height: auto;
+          margin-bottom: 20px;
+      }
+      
+      .product-detail p {
+          font-size: 1.2em;
+          margin: 10px 0;
+      }
+      
+      button {
+          padding: 10px 20px;
+          background-color: #28a745;
+          color: white;
+          border: none;
+          cursor: pointer;
+      }
+      
+      button:hover {
+          background-color: #218838;
+      }
+      

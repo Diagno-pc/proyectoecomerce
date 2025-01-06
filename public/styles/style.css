@@ -1,0 +1,203 @@
+/*body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      
+      header {
+          background-color: #333;
+          color: white;
+          padding: 1em;
+          text-align: center;
+      }
+      
+      footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 1em;
+          position: fixed;
+          width: 100%;
+          bottom: 0;
+      }
+      
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .product {
+        width: 23%;  /* Los productos ocuparán el 23% del ancho de la pantalla, dejando espacio entre ellos 
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+
+
+    .product {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+    } 
+      
+      .product img {
+          width: 100%;
+          height: auto;
+      }
+      
+      .product button {
+          background-color: #28a745;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+      }
+      
+      .product button:hover {
+          background-color: #218838;
+      }
+      
+      a {
+          color: #fff;
+          text-decoration: none;
+      }
+
+      Estilo para pantallas pequeñas 
+@media (max-width: 768px) {
+    .product {
+        width: 48%;  /* En pantallas pequeñas, los productos ocupan el 48% 
+    }
+}
+
+/* Estilo para pantallas aún más pequeñas 
+@media (max-width: 480px) {
+    .product {
+        width: 100%;  /* En pantallas muy pequeñas, los productos ocupan el 100% 
+    }
+} */
+      /* NUEVO ESTILO */
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header, footer {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+    }
+
+    header a{
+        text-decoration: none;
+        background-color: aliceblue;
+        padding: 5px;
+        border-radius: 1rem;
+    }
+    
+    .products, .cart {
+        padding: 20px;
+    }
+    
+    .product, .cart-item {
+        margin-bottom: 20px;
+    }
+    
+    .product {
+        width: 100%;
+        margin: 5px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        box-sizing: content-box;
+    }
+    
+    .product img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .product button, #whatsapp-button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .product button:hover, #whatsapp-button:hover {
+        background-color: #218838;
+    }
+    
+    .cart-item {
+        margin-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .product a {
+        background-color: #2828a7;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+
+    .product a:hover {
+        background-color: rgb(241, 38, 38);
+    }
+    
+    button {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+   
+    .products {
+        padding: 5px;
+    }
+    
+    .product-list {
+        display: flex; /* Habilitar el diseño flexible */
+        flex-wrap: wrap; /* Permitir que los productos se acomoden en múltiples filas */
+        justify-content: space-between; /* Espaciado entre los productos */
+    }
+    
+    .product {
+        width: 23%; /* Hacer que cada producto ocupe un 23% del ancho disponible */
+        margin-bottom: 20px; /* Espaciado inferior entre productos */
+        border:  1PX solid #ccc;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+        .product-list {
+            flex-direction: column;
+            width: auto;
+        }
+    }
+
+     /* Responsividad */
+     @media (max-width: 768px) {
+        .product {
+            width:100%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .product {
+            width: 100%;
+        } }
